@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>JS Bin</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script type="text/javascript" src="index.js"></script> 
+      </head>
+      <body>
+        <h1 class="heading">Contact Registration Application</h1>
+        <div id="inputDiv" class="form-data">
+            <pre><p class="lable">              Name</p><input type="text" id="name" class="input" required /> </pre>
+            <pre><p class="lable">              DOB</p><input type="date" id="age" class="input" style="width:177px"/></pre>
+            <pre><p class="lable">             Email</p><input type="text" id="email" class="input" required /></pre>
+            <pre><p class="lable">PhoneNumber</p><input type="text" id="number" class="input" maxlength="10" required /> </pre>
+            <pre><p class="lable">                City</p><input type="text" id="city" class="input" required /></pre> 
+            <input type="submit" value="Add" class="button" id="addbtn" onclick="return validateAndCreateContact()"/>
+            <input type="submit" value="Cancel" id="canclebtn" class="button-cancle" onclick="clearCancel()"/> 
+            <Input type="hidden" id="indexValue" value=""/>
+          </div> 
+        <div id="displayContacts">
+        </div>
+      </body>
+</html>

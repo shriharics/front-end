@@ -1,0 +1,47 @@
+body,*{
+        font-family:"Arial", sans-serif;
+        box-sizing: border-box;
+        background-color:#666;
+        color:#fff;
+}
+.heading{
+    background-color:#666;
+    list-style: none;
+    margin: 0;
+    position:relative;
+    text-align: center;
+    color:#fff;
+    padding: 1em;
+  }
+  .form-data{
+    text-align: center;
+  }
+  .input{
+    margin: 0.01em;
+    vertical-align: middle;
+    margin-left: 5pt;
+  }
+  .lable{
+    display:inline;
+   align-items: middle;
+   text-align: right;
+   
+  }
+  .button{
+    display:inline;
+    margin-left: 50pt;
+  }
+  .table-style{
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 10pt;
+  }
+  .button-cancle{
+    display:none;
+    margin-left: 20pt;
+  }
+  .button-cancle-visable{
+    display:inline;
+    margin-left: 50pt;
+  }
